@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="c2f.js"></script>
+  <style>
+    .btn {
+      background-color: aquamarine;
+      font-size: 60px;
+      border-radius: 12px;
+      display: inline-block;
+      margin: 20px;
+    }
+
+    .btn2 {
+      background-color: pink;
+      font-size: 30px;
+      border-radius: 8px;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    h3 {
+      font-size: 28px;
+      color: #537698;
+    }
+    .btn3 {
+      background-color: #c6d3cb;
+      font-size: 20px;
+      margin: 10px;
+      border-radius: 5px;
+      border-color: black;
+    }
+    .tx1 {
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="div1" id="btnC2F">
+    <input class=btn type="button" onclick="tempC2F()" value="C2F" size="20px">
+  </div>
+  <div class="div1" id="btnF2C">
+    <input class=btn type="button" onclick="tempF2C()" value="F2C">
+  </div>
+  <div class="div2" id="btnDef">
+    <h3>
+      Quick check:
+    </h3>
+    <form>
+      Input Celsuis to calculate:<br>
+      <input class=tx1 type="text" value="0"> 
+      <input class=btn3 type="button" onclick="tempC()" value="Click to Calc">
+    </form>
+
+    <hr></hr>
+    <input class=btn2 type="button" onclick="tempC(10)" value="10 Celsuis">
+    <input class=btn2 type="button" onclick="tempC(20)" value="20 Celsuis">
+    <input class=btn2 type="button" onclick="tempC(30)" value="30 Celsuis">
+    <input class=btn2 type="button" onclick="tempC(40)" value="40 Celsuis">
+</body>
+
+</html>
